@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class EmployeeDirectory {
-    Set<Employee> employees = new HashSet<>();
+    private final Set<Employee> employees = new HashSet<>();
 
     public Set<Employee> getEmployeesByExperience(int experience) {
         Set<Employee> res = new HashSet<>();
