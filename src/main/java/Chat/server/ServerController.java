@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class ServerController {
-    private final String pathToLog = "./src/main/java/server/log.txt";
+    private final String pathToLog = "./src/main/java/Chat/server/log.txt";
 
     private final ServerGUI window;
     private final ArrayList<ChatController> clients = new ArrayList<>();
